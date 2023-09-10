@@ -78,7 +78,7 @@ function Products() {
           </div>
 
           <div style={{ marginTop: "5px", textAlign: "right" }}>
-            <span>
+            <span className={classes.wishSpan}>
               <u>Add to Wishlist</u>
             </span>
           </div>

@@ -89,10 +89,6 @@
     flex-flow: row wrap;
   }
 
-  .secondRow {
-    flex-wrap: wrap;
-  }
-
   .firstRow {
     display: block;
   }
@@ -134,5 +130,15 @@
     display: flow;
     width: 70%;
     margin: auto;
+  }
+}
+
+@media screen and (max-width: 344px) {
+  .wishSpan {
+    width: min-content;
+  }
+  .secondRow {
+    align-items: center;
+    margin-top: 0.7rem;
   }
 }
