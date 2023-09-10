@@ -1,0 +1,88 @@
+.payment {
+  flex-shrink: 1;
+  flex-basis: 34%;
+  margin-top: 20px;
+}
+
+.firstRow {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.firstRow > div {
+  display: flex;
+  align-self: center;
+}
+
+.checkoutButton {
+  display: block;
+  width: 100%;
+  font-size: 17px;
+  margin-bottom: 18px;
+  padding: 12px 0;
+}
+
+.apply {
+  border: 1px black solid;
+  background-color: white;
+  height: 1.9rem;
+  width: 6.1rem;
+  font-size: 15px;
+  text-align: center;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.widthRow {
+  margin-bottom: 1rem;
+}
+
+.apply:hover {
+  border: 1px black solid;
+  background-color: rgb(248, 245, 245);
+}
+
+.txt > hr {
+  margin: 1.5rem 0;
+}
+
+.pinCode {
+  height: 45px;
+  padding: 10px 23px;
+  display: inline;
+  width: 95%;
+  font-size: 18px;
+}
+
+.checkout-button {
+  margin-right: 12px;
+}
+
+.pinLabel {
+  background-color: rgb(225, 225, 225);
+  padding: 10px 7px;
+  display: inline-block;
+  word-break: break-word;
+  width: 180px;
+  border-radius: 30px;
+  justify-content: center;
+}
+
+.inform {
+  font-size: 18px;
+}
+
+.title {
+  font-size: 18px;
+  margin-bottom: 14px;
+}
+
+.payment-methods {
+  display: flex;
+  gap: 50px;
+}
+
+.payment-methods img {
+  height: 1rem;
+}

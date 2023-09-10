@@ -1,0 +1,138 @@
+.product {
+  position: relative;
+  display: flex;
+  flex-shrink: 1;
+  padding: 25px 0;
+}
+
+.buttons {
+  display: flex;
+  justify-content: right;
+}
+
+.description {
+  flex-basis: 600px;
+}
+
+.changeButton {
+  height: 30px;
+  width: 30px;
+  padding: 2px 4px;
+}
+
+.changeButton ~ input {
+  width: 30px;
+  height: 30px;
+}
+
+.secondRow {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.secondRow div {
+  margin-top: 2px;
+  display: flex;
+  justify-content: right;
+}
+
+.firstRow {
+  gap: 3px;
+  margin-bottom: 5px;
+}
+
+.firstRow div {
+  margin-bottom: 4px;
+  display: flex;
+}
+
+.emptySpace {
+  height: 24px;
+}
+
+.discount {
+  color: red;
+}
+
+.delivery {
+  color: rgb(3, 201, 3);
+  margin-left: 10px;
+}
+
+.firstRow > div > span {
+  margin: 0 4px;
+}
+
+.product > div > img {
+  float: left;
+  height: 170px;
+  width: auto;
+  margin-right: 20px;
+}
+
+.closeButton {
+  height: 1.5rem;
+  width: auto;
+  display: block;
+  margin-left: auto;
+}
+
+.product h5 {
+  font-size: 19px;
+  display: inline-block;
+  width: 80%;
+}
+
+@media screen and (max-width: 1000px) {
+  .product {
+    flex-flow: row wrap;
+  }
+
+  .secondRow {
+    flex-wrap: wrap;
+  }
+
+  .firstRow {
+    display: block;
+  }
+
+  .info {
+    display: block !important;
+    width: 100% !important;
+  }
+
+  .emptySpace {
+    display: none !important;
+  }
+
+  .secondRow > div {
+    margin: 0 7px !important;
+  }
+
+  .closeButton {
+    position: absolute;
+    top: 40px;
+    right: 10px;
+  }
+
+  .secondRow {
+    flex-direction: row;
+    margin-top: 1rem !important;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .firstRow > div {
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 418px) {
+  .product > div > img {
+    float: none;
+    display: flow;
+    width: 70%;
+    margin: auto;
+  }
+}

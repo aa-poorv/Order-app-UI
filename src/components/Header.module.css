@@ -1,0 +1,42 @@
+.nav {
+  background-color: bisque;
+  padding-left: 3%;
+  padding-right: 3%;
+  height: 5rem;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.brand {
+  flex-shrink: 0;
+}
+
+.brand .frikly-icon {
+  height: 3rem;
+  width: auto;
+}
+
+.assurance-text {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.assurance-text p {
+  margin-bottom: 0;
+}
+
+.lock-icon {
+  height: 1rem;
+  width: auto;
+  margin-right: 0.3rem;
+}
+
+@media screen and (max-width: 480px) {
+  .assurance-text {
+    display: none;
+  }
+  .nav {
+    justify-content: center;
+  }
+}

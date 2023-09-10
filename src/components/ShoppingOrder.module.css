@@ -1,0 +1,58 @@
+.shopping {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: azure;
+  height: 5rem;
+}
+
+.shopping div {
+  border: 8px solid azure;
+  border-radius: 50%;
+  pointer-events: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.shopping div:hover {
+  background-color: rgb(199, 199, 199);
+}
+
+.shopping div img:hover {
+  background-color: rgb(199, 199, 199);
+}
+
+.shopping div img {
+  pointer-events: auto;
+  background-color: white;
+  height: 1rem;
+  width: auto;
+  margin: 8px;
+}
+
+h6 {
+  margin: 0;
+  margin-right: 8px;
+}
+
+.shopping hr {
+  width: 7%;
+  background-color: rgb(198, 193, 193);
+  margin: 0 9px;
+}
+
+@media screen and (max-width: 850px) {
+  .disappear {
+    display: none;
+  }
+  .shopping {
+    justify-content: space-around;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .disappear1 {
+    display: none;
+  }
+}

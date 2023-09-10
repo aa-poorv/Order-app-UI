@@ -1,0 +1,55 @@
+.items {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  flex-basis: 66%;
+  gap: 15px;
+}
+
+.itemCard {
+  margin-top: 20px;
+}
+
+.allCard hr {
+  margin: 0;
+}
+
+h5 {
+  margin: 5px;
+}
+
+.allCard {
+  border-left: 0 none;
+  border-right: 0 none;
+  margin-bottom: 50px;
+}
+
+p {
+  margin: 5px;
+}
+
+.cartDescription {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cardTitle {
+  display: flex;
+}
+
+.itemCard img {
+  align-self: center;
+  margin-right: 3px;
+  height: 1rem;
+  vertical-align: middle;
+}
+
+.alert {
+  display: inline;
+  width: fit-content;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  font-size: 14px;
+}
