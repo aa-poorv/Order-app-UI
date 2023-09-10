@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Order-app-UI/static/css/main.bcb38334.css",
+    "main.js": "/Order-app-UI/static/js/main.923013d6.js",
+    "static/media/DoorKnob.webp": "/Order-app-UI/static/media/DoorKnob.1394a60c6c2840ce555c.webp",
+    "static/media/world.png": "/Order-app-UI/static/media/world.c053665f978c71881f48.png",
+    "static/media/paytm.png": "/Order-app-UI/static/media/paytm.05721a09336acdffb980.png",
+    "static/media/discount.png": "/Order-app-UI/static/media/discount.b3a5502d4400da374bba.png",
+    "static/media/close.png": "/Order-app-UI/static/media/close.785aa15ad2021922596e.png",
+    "static/media/OrderComplete.png": "/Order-app-UI/static/media/OrderComplete.2f429777be0e6cb33314.png",
+    "static/media/truck.png": "/Order-app-UI/static/media/truck.4b00543f3c60efb535e2.png",
+    "static/media/cart.png": "/Order-app-UI/static/media/cart.b843b94f1b21e3c2660b.png",
+    "static/media/mastercard.png": "/Order-app-UI/static/media/mastercard.8ab93d6d024df326004d.png",
+    "index.html": "/Order-app-UI/index.html",
+    "main.bcb38334.css.map": "/Order-app-UI/static/css/main.bcb38334.css.map",
+    "main.923013d6.js.map": "/Order-app-UI/static/js/main.923013d6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bcb38334.css",
+    "static/js/main.923013d6.js"
+  ]
+}
